@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:100px;
+    padding:20px;
+}
+.flex img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    filter:grayscale(100%);
+    transition: 1s;
+}
+.flex img:hover{
+    filter:grayscale(0%)
+
+}
+.flex > div{
+    border:1px solid lightcyan;
+    padding:20px;
+    border-radius: 10px 30px;
+}
